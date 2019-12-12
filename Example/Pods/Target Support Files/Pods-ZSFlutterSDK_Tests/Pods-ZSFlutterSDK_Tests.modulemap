@@ -1,0 +1,6 @@
+framework module Pods_ZSFlutterSDK_Tests {
+  umbrella header "Pods-ZSFlutterSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

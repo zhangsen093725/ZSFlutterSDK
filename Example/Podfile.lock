@@ -1,0 +1,16 @@
+PODS:
+  - ZSFlutterSDK (0.0.1)
+
+DEPENDENCIES:
+  - ZSFlutterSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ZSFlutterSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZSFlutterSDK: 84133887937386fad320d6d80cdcd9d047ac6a96
+
+PODFILE CHECKSUM: 8f4b4b46902253b22f9d0b2f78ce96a2e16636ca
+
+COCOAPODS: 1.8.4

@@ -269,11 +269,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZSFlutterSDK_Example/Pods-ZSFlutterSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZSFlutterSDK/ZSFlutterSDK.framework",
+				"${PODS_ROOT}/../../ios_frameworks/App.framework",
+				"${PODS_ROOT}/../../ios_frameworks/Flutter.framework",
+				"${PODS_ROOT}/../../ios_frameworks/shared_preferences.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZSFlutterSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
