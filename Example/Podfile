@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZSFlutterSDK_Example' do
+  pod 'ZSFlutterSDK', :path => '../'
+
+  target 'ZSFlutterSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
